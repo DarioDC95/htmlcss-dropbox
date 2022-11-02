@@ -67,6 +67,7 @@ header .button-link {
     padding: 7px 20px;
     font-size: medium;
     text-decoration-line: none;
+    cursor: pointer;
 }
 
 .blue-bg {
@@ -260,7 +261,7 @@ header .button-link {
 }
 
 #subscription ul {
-list-style-type: none;
+    list-style-type: none;
 }
 
 #subscription .features-top {
