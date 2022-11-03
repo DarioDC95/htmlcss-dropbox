@@ -124,6 +124,7 @@ header .button-link {
 
 .card-jumbotron img {
     width: 100%;
+    transform: translateY(5px)
 }
 
 /* opzione di abbonamento */
