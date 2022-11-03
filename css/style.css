@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 
 header {
@@ -174,7 +174,7 @@ header .button-link {
   /* Create a custom radio button */
   .checkmark {
     position: absolute;
-    top: 2px;
+    top: 0px;
     left: 0;
     height: 22px;
     width: 22px;
@@ -222,8 +222,12 @@ header .button-link {
     justify-content: space-between;
 }
 
+.row-subscription {
+    margin-bottom: 50px;
+}
+
 #subscription .col-med {
-    width: calc((100% - 60px) / 3);
+    width: calc((100% - 100px) / 3);
     display: flex;
     align-items: stretch;
 }
@@ -236,11 +240,11 @@ header .button-link {
     border: 1px solid grey;
 }
 
-.card-subscription-option .type {
+#subscription .type {
     padding: 10px 0;
 }
 
-.card-subscription-option .type i {
+#subscription .type i {
     font-size: large;
 }
 
@@ -249,7 +253,7 @@ header .button-link {
 }
 
 #subscription .description {
-    padding: 30px 35px;
+    padding: 30px 30px;
 }
 
 #subscription h3 {
@@ -295,14 +299,14 @@ header .button-link {
     margin-right: 4px;
 }
 
-#subscription .description .free-try {
+#subscription .free-try {
     display: block;
     padding: 10px 0;
     text-decoration-line: none;
     margin-bottom: 30px;
 }
 
-#subscription .buy-now {
+#subscription .description .buy-now {
     margin-bottom: 50px;
 }
 
@@ -316,10 +320,31 @@ header .button-link {
     color: blue;
 }
 
-#subscription h4 {
+#subscription .description h4 {
     margin-bottom: 40px;
 }
 
 #subscription .features-bottom li {
     margin-bottom: 30px;
+}
+
+/* riga enterprise */
+.row-team-enterprise .col-little {
+    width: calc((100% - 100px) / 3)
+}
+
+.row-team-enterprise .col-big {
+    width: calc((((100% - 100px) / 3)) * 2 + 100px)
+}
+
+.row-team-enterprise .card-enterprise {
+    padding: 30px 40px 30px 30px;
+}
+
+.row-team-enterprise .card-enterprise h4 {
+    margin-bottom: 50px;
+}
+
+.row-team-enterprise .card-contact {
+    padding: 30px 30px;
 }
