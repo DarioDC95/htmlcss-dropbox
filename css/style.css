@@ -92,7 +92,7 @@ header .button-link {
 }
 
 #intro .row:last-child {
-    transform: translateY(60px)
+    transform: translateY(15%)
 }
 
 #intro h1 {
