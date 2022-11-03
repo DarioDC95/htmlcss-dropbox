@@ -212,8 +212,9 @@ header .button-link {
     border-radius: 50%;
     background: white;
 }
-
 /* fine selettori input */
+
+/* tipi di abbonamento */
 #subscription .row {
     justify-content: space-between;
 }
