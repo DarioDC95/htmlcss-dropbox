@@ -422,3 +422,20 @@ h3 {
 #dropbox-business .row:nth-child(2) {
     margin-bottom: 50px;
 }
+
+/* dropbox clients */
+#dropbox-clients .card-title {
+    max-width: 70%;
+}
+
+#dropbox-clients .card-title h2 {
+    margin-bottom: 50px;
+}
+
+.color-blue {
+    color: blue;
+}
+
+#dropbox-clients .container-sub {
+    margin-bottom: 100px;
+}
