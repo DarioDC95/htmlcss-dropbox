@@ -596,6 +596,19 @@ footer hr {
     margin-bottom: 50px;
 }
 
+footer .lang-choice {
+    display: flex;
+    align-items: center;
+}
+
 footer .fa-earth-americas, .fa-caret-up {
     filter: contrast(0.8) brightness(5);
+}
+
+footer .lang-choice span {
+    margin: 0 5px 0 10px;
+}
+
+footer .fa-caret-up {
+    align-self: flex-end;
 }
