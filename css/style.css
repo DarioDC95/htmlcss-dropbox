@@ -348,3 +348,40 @@ header .button-link {
 .row-team-enterprise .card-contact {
     padding: 30px 30px;
 }
+
+/* Trova Partner Dropbox */
+#find-partner .col-big {
+    width: 60%;
+}
+
+#find-partner .col-little {
+    width: 40%;
+}
+
+#find-partner img {
+    width: 100%;
+}
+
+#find-partner .card-description {
+    padding: 50px 50px;
+}
+
+#find-partner .card-description h3 {
+    margin-bottom: 30px;
+}
+
+.font-h3 {
+    font-size: 25px;
+}
+
+#find-partner .card-description p {
+    margin-bottom: 30px;
+}
+
+#find-partner .card-description a {
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid grey;
+    text-decoration-line: none;
+    color: black;
+}
