@@ -40,6 +40,10 @@ header .col-med {
     align-items: center;
 }
 
+header img {
+    width: auto;
+}
+
 .right-side {
     justify-content: flex-end;
 }
@@ -126,13 +130,14 @@ header .button-link {
     font-size: 50px;
 }
 
-.card-jumbotron img {
-    max-width: 100%;
+img {
+    width: 100%;
 }
 
 /* opzione di abbonamento */
 #subscription {
-    padding: 150px 0;
+    padding-top: 150px;
+    margin-bottom: 150px;
 }
 
 .container-sub {
@@ -140,7 +145,7 @@ header .button-link {
     margin: 0 auto;
 }
 
-#subscription h2 {
+h2 {
     font-size: 40px;
 }
 
@@ -256,8 +261,11 @@ header .button-link {
     padding: 30px 30px;
 }
 
-#subscription h3 {
+h3 {
     font-size: 25px;
+}
+
+#subscription h3 {
     margin-bottom: 20px;
 }
 
@@ -350,16 +358,16 @@ header .button-link {
 }
 
 /* Trova Partner Dropbox */
+#find-partner {
+    margin-bottom: 150px;
+}
+
 #find-partner .col-big {
     width: 60%;
 }
 
 #find-partner .col-little {
     width: 40%;
-}
-
-#find-partner img {
-    width: 100%;
 }
 
 #find-partner .card-description {
@@ -384,4 +392,33 @@ header .button-link {
     border: 2px solid grey;
     text-decoration-line: none;
     color: black;
+}
+
+/* operazioni con Dropbox Business */
+#dropbox-business {
+    margin-bottom: 150px;
+}
+
+#dropbox-business .row:first-child {
+    margin-bottom: 50px;
+}
+
+#dropbox-business .col-med {
+    width: calc((100% - 100px) / 3);
+}
+
+#dropbox-business .row {
+    justify-content: space-between;
+}
+
+#dropbox-business .col-med img {
+    margin-bottom: 0px;
+}
+
+#dropbox-business .col-med h3 {
+    margin-bottom: 40px;
+}
+
+#dropbox-business .row:nth-child(2) {
+    margin-bottom: 50px;
 }
