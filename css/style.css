@@ -510,3 +510,53 @@ h3 {
 .yellow-bg {
     background-color: rgba(255,216,48,255);
 }
+
+/* prova gratuita */
+.free-try {
+    padding: 100px 0;
+}
+
+.free-try .col-med {
+    width: 50%;
+}
+
+.free-try .col-med h2 {
+    color: rgb(71, 23, 23);
+}
+
+.free-try .col-med:last-child {
+    text-align: right;
+}
+
+.free-try .col-med a {
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: rgba(245,245,245,255);
+    text-decoration-line: none;
+    margin-top: 10px;
+}
+
+/* Domande frequenti */
+#frequent-question {
+    padding: 130px;
+}
+
+#frequent-question .card div {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 40px 0;
+}
+
+#frequent-question .card h2 {
+    margin-bottom: 60px;
+}
+
+#frequent-question .col {
+    width: 100%;
+}
+
+#frequent-question .fa-chevron-down {
+    margin-right: 40px;
+    font-size: 12px;
+}
