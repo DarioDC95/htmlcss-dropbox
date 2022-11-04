@@ -444,7 +444,7 @@ h3 {
 }
 
 #dropbox-clients .col-top .row {
-    height: 50%;
+    height: calc((100vw / 3) / 2);
 }
 
 #dropbox-clients .col-int {
@@ -460,7 +460,7 @@ h3 {
 }
 
 #dropbox-clients .col-center {
-    padding: 50px 50px 100px 50px;
+    padding: 50px 50px 0px 50px;
     background-color: rgba(245,245,245,255);
 }
 
