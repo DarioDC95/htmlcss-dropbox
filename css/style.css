@@ -461,6 +461,7 @@ h3 {
 #dropbox-clients .col-int img {
     width: 150px;
     filter: contrast(5%) brightness(300%);
+    /* filter: invert(1); si può anche fare questo */
 }
 
 #dropbox-clients .col-center {
@@ -607,6 +608,7 @@ footer .lang-choice {
 
 footer .fa-earth-americas, .fa-caret-up {
     filter: contrast(0.8) brightness(5);
+    /* filter: invert(0.5); si può anche fare questo */
 }
 
 footer .lang-choice span {
