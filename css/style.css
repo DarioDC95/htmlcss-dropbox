@@ -297,7 +297,7 @@ h3 {
 }
 
 #subscription li i {
-    /* e scommentare display: inline-block e display: flex; */
+    /* e scommentare display: inline-block e display: flex; o viceversa */
     margin-left: -1.5em;
     font-size: large;
 }
