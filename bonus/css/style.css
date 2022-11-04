@@ -1,0 +1,620 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* border: 1px solid black; */
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    z-index: 5;
+}
+
+.container-header {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+header .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .col-med {
+    width: 40%;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header img {
+    width: auto;
+}
+
+.right-side {
+    justify-content: flex-end;
+}
+
+.card-header img {
+    margin: 0 20px;
+}
+
+.card-header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.card-header ul li {
+    margin: 0 20px;
+}
+
+.card-header ul li a {
+    text-decoration-line: none;
+    color: black;
+}
+
+header .button-link {
+    margin-right: 20px;
+    padding: 7px 20px;
+    font-size: medium;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+
+.blue-bg {
+    background-color: blue;
+}
+
+.white-font {
+    color: white;
+}
+
+/* corpo principale della pagina */
+
+#intro {
+    padding-top: 150px;
+    padding-bottom: 0px;
+    background-color: aqua;
+}
+
+.container-jumbo {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#intro .row:first-child {
+    transform: translateY(10%);
+}
+
+#intro .row:last-child {
+    transform: translateY(17%)
+}
+
+#intro h1 {
+    font-size: 80px;
+    font-weight: 800;
+}
+
+#intro .col-little {
+    width: 30%;
+}
+
+#intro .col-big {
+    width: 70%;
+}
+
+#intro .button-link {
+    padding: 10px 15px;
+    font-size: medium;
+    margin: 30px 0;
+    border-color: blue;
+    display: inline-block;
+    text-decoration-line: none;
+}
+
+#intro .fa-arrow-down {
+    margin-top: 60px;
+    font-size: 50px;
+}
+
+img {
+    width: 100%;
+}
+
+/* opzione di abbonamento */
+#subscription {
+    padding-top: 150px;
+    margin-bottom: 150px;
+}
+
+.container-sub {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+/* selettori input */
+#subscription .input-radio {
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+/* The container */
+.container-input {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    margin-right: 55px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+  
+  /* Hide the browser's default radio button */
+  .container-input input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 22px;
+    width: 22px;
+    background-color: #eee;
+    border: 3px solid rgb(148, 144, 144);
+    border-radius: 50%;
+}
+  
+  /* On mouse-over, add a grey background color */
+  .container-input:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+  
+  /* When the radio button is checked, add a blue background */
+  .container-input input:checked ~ .checkmark {
+    background-color: #2196F3;
+    border: none;
+}
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+  /* Show the indicator (dot/circle) when checked */
+.container-input input:checked ~ .checkmark:after {
+    display: block;
+}
+  
+  /* Style the indicator (dot/circle) */
+.container-input .checkmark:after {
+    top: 5px;
+    left: 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: white;
+}
+/* fine selettori input */
+
+/* tipi di abbonamento */
+#subscription .row {
+    justify-content: space-between;
+}
+
+.row-subscription {
+    margin-bottom: 50px;
+}
+
+#subscription .col-med {
+    width: 30%;
+    display: flex;
+    align-items: stretch;
+}
+
+.font-small {
+    font-size: 14px;
+}
+
+.border-gray {
+    border: 1px solid grey;
+}
+
+#subscription .type {
+    padding: 10px 0;
+}
+
+#subscription .type i {
+    font-size: large;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#subscription .description {
+    padding: 30px 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+#subscription h3 {
+    margin-bottom: 20px;
+}
+
+#subscription .description .price {
+    margin-bottom: 15px;
+}
+
+.color-grey {
+    color: grey;
+}
+
+#subscription ul {
+    list-style-type: none;
+}
+
+#subscription .features-top {
+    margin: 50px 0;
+}
+
+#subscription ul li {
+    /* posso anche togliere questi margin-inline-start: 2em e margin-left: -1.5em  */
+    margin-inline-start: 2em;
+    /* display: flex; */
+}
+
+#subscription .features-top li:nth-child(2) {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#subscription li i {
+    /* e scommentare display: inline-block e display: flex; o viceversa */
+    margin-left: -1.5em;
+    font-size: large;
+}
+
+#subscription li span {
+    margin-left: 4px;
+    /* display: inline-block; */
+}
+
+#subscription .features-top .fa-share-nodes {
+    margin-right: 3px;
+}
+
+#subscription .free-try {
+    display: block;
+    padding: 10px 0;
+    text-decoration-line: none;
+    margin-bottom: 30px;
+}
+
+#subscription .description .buy-now {
+    margin-bottom: 50px;
+}
+
+#subscription .description hr {
+    width: 25%;
+    margin-bottom: 40px;
+}
+
+#subscription .features-bottom .fa-check {
+    color: blue;
+}
+
+#subscription .description h4 {
+    margin-bottom: 40px;
+}
+
+#subscription .features-bottom li {
+    margin-bottom: 30px;
+}
+
+/* riga enterprise */
+.row-team-enterprise .col-little {
+    width: 30%
+}
+
+.row-team-enterprise .col-big {
+    width: 65%;
+}
+
+.row-team-enterprise .card-enterprise {
+    padding: 30px 40px 30px 30px;
+}
+
+.row-team-enterprise .card-enterprise h4 {
+    margin-bottom: 50px;
+}
+
+.row-team-enterprise .card-contact {
+    padding: 30px 30px;
+}
+
+/* Trova Partner Dropbox */
+#find-partner {
+    margin-bottom: 150px;
+}
+
+#find-partner .col-big {
+    width: 60%;
+}
+
+#find-partner .col-little {
+    width: 40%;
+}
+
+#find-partner .card-description {
+    padding: 50px 50px;
+}
+
+#find-partner .card-description h3 {
+    margin-bottom: 30px;
+}
+
+.font-h3 {
+    font-size: 25px;
+}
+
+#find-partner .card-description p {
+    margin-bottom: 30px;
+}
+
+#find-partner .card-description a {
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid grey;
+    text-decoration-line: none;
+    color: black;
+}
+
+/* operazioni con Dropbox Business */
+#dropbox-business {
+    margin-bottom: 150px;
+}
+
+#dropbox-business .row:first-child {
+    margin-bottom: 50px;
+}
+
+#dropbox-business .col-med {
+    width: calc((100% - 100px) / 3);
+}
+
+#dropbox-business .row {
+    justify-content: space-between;
+}
+
+#dropbox-business .col-med img {
+    margin-bottom: 0px;
+}
+
+#dropbox-business .col-med h3 {
+    margin-bottom: 40px;
+}
+
+#dropbox-business .row:nth-child(2) {
+    margin-bottom: 50px;
+}
+
+/* dropbox clients */
+#dropbox-clients .card-title {
+    max-width: 70%;
+}
+
+#dropbox-clients .card-title h2 {
+    margin-bottom: 50px;
+}
+
+.color-blue {
+    color: blue;
+}
+
+#dropbox-clients .container-sub {
+    margin-bottom: 100px;
+}
+
+#dropbox-clients .col-top {
+    width: calc(100% / 3);
+}
+
+#dropbox-clients .col-top .row {
+    height: calc((100vw / 3) / 2);
+}
+
+#dropbox-clients .col-int {
+    width: calc(100% / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dropbox-clients .col-int img {
+    width: 150px;
+    filter: contrast(5%) brightness(300%);
+    /* filter: invert(1); si può anche fare questo */
+}
+
+#dropbox-clients .col-center {
+    padding: 50px 50px 0px 50px;
+    background-color: rgba(245,245,245,255);
+}
+
+#dropbox-clients .col-center img {
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+#dropbox-clients .col-center hr {
+    width: 20%;
+    margin-bottom: 40px;
+}
+
+#dropbox-clients .col-center p {
+    margin-bottom: 60px;
+}
+
+.green-bg {
+    background-color: rgba(162,211,155,255);
+    box-shadow: 0px 0px 0px 15px #ffffff8f inset;
+}
+
+.brown-bg {
+    background-color: rgba(97,8,43,255);
+}
+
+.lightblue-bg {
+    background-color: rgba(0,147,206,255);
+}
+
+.orange-bg {
+    background-color: rgba(255,28,28,255);
+}
+
+.red-bg {
+    background-color: rgba(213,0,31,255);
+}
+
+.azure-bg {
+    background-color: rgba(180,208,231,255);
+}
+
+.blue-bg {
+    background-color: rgba(13,36,129,255);
+}
+
+.yellow-bg {
+    background-color: rgba(255,216,48,255);
+}
+
+/* prova gratuita */
+.free-try {
+    padding: 100px 0;
+}
+
+.free-try .col-med {
+    width: 50%;
+}
+
+.free-try .col-med h2 {
+    color: rgb(71, 23, 23);
+}
+
+.free-try .col-med:last-child {
+    text-align: right;
+}
+
+.free-try .col-med a {
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: rgba(245,245,245,255);
+    text-decoration-line: none;
+    margin-top: 10px;
+}
+
+/* Domande frequenti */
+#frequent-question {
+    padding: 130px;
+}
+
+#frequent-question .card div {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 40px 0;
+}
+
+#frequent-question .card h2 {
+    margin-bottom: 60px;
+}
+
+#frequent-question .col {
+    width: 100%;
+}
+
+#frequent-question .fa-chevron-down {
+    margin-right: 40px;
+    font-size: 12px;
+}
+
+/* fondo pagina */
+footer {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: black;
+}
+
+footer .row:first-child {
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+footer .col-med {
+    width: 15%;
+}
+
+footer h3 {
+    margin-bottom: 15px;
+}
+
+footer ul li {
+    list-style-type: none;
+    line-height: 2;
+}
+
+footer li a {
+    text-decoration-line: none;
+    color: white;
+}
+
+footer hr {
+    width: 10%;
+    margin-bottom: 50px;
+}
+
+footer .lang-choice {
+    display: flex;
+    align-items: center;
+}
+
+footer .fa-earth-americas, .fa-caret-up {
+    filter: contrast(0.8) brightness(5);
+    /* filter: invert(0.5); si può anche fare questo */
+}
+
+footer .lang-choice span {
+    margin: 0 5px 0 10px;
+}
+
+footer .fa-caret-up {
+    align-self: flex-end;
+}
