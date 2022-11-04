@@ -286,7 +286,9 @@ h3 {
 }
 
 #subscription ul li {
+    /* posso anche togliere questi margin-inline-start: 2em e margin-left: -1.5em  */
     margin-inline-start: 2em;
+    /* display: flex; */
 }
 
 #subscription .features-top li:nth-child(2) {
@@ -295,16 +297,18 @@ h3 {
 }
 
 #subscription li i {
+    /* e scommentare display: inline-block e display: flex; */
     margin-left: -1.5em;
     font-size: large;
 }
 
 #subscription li span {
     margin-left: 4px;
+    /* display: inline-block; */
 }
 
 #subscription .features-top .fa-share-nodes {
-    margin-right: 4px;
+    margin-right: 3px;
 }
 
 #subscription .free-try {
