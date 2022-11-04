@@ -137,7 +137,7 @@ header .button-link {
     cursor: pointer;
 }
 
-.button-link:hover, .free-try:hover {
+.button-link:hover, .free-try-30:hover {
     color: blue;
     background-color: lightblue;
     box-shadow: 0px 0px 0px 2px blue inset;
@@ -381,7 +381,7 @@ h3 {
     margin-right: 3px;
 }
 
-#subscription .free-try {
+#subscription .free-try-30 {
     display: block;
     padding: 10px 0;
     text-decoration-line: none;
